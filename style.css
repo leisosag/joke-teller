@@ -5,6 +5,7 @@
 }
 body {
   background-color: #000;
+  height: 100vh;
 }
 .container {
   display: flex;
@@ -43,10 +44,11 @@ button:disabled {
 @media screen and (max-width: 1000px) {
   .container {
     background-size: cover;
-    background-position: center center;
-    flex-direction: row;
+    background-position: center;
+    margin-bottom: 60vh;
   }
   button {
     box-shadow: 5px 5px 30px 20px rgba(0, 255, 255, 0.3);
+    margin-top: 60vh;
   }
 }
